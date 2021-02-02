@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-image: url(../assets/images/whatsapp.jpg);
+    margin: 0px;
+    font-family: arial, sans-serif;
+  }
+  
+  #header {
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+    height: 74px;
+    background-color:#128C7E;
+    font-family: "Roboto";
+  }
+  
+  #header>h1 {
+    margin: 0px auto;
+    padding-top: 100px;
+    width: 1024px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .container {
+    background-image: url(../assets/images/whatsapp.jpg);
+    margin: 0px auto 10px auto;
+    max-width: 800px;
+    width: calc(100% - 20px);
+    height: 588px;
+    font-family: 'Abril Fatface';
+    letter-spacing: 0.5px;
+    padding: 0 !important;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 1px solid #BFCDD8;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  #controls {
+    border-radius: 5px;
+    width: 1024px;
+    margin: 0px auto;
+    background-color: white;
+  }
+  
+  textarea {
+      outline: none;
+    margin-top: 10px;
+    margin-left: 240px;
+    border-radius: 21px;
+    resize: none;
+    width: 920px;
+    float: left;
+    height: 50px;
+    font-family: 'Roboto';
+    padding: 6px;
+    border: 0px;
+    font-size: 14px;
+    background-color: rgb(70, 68, 68);
+    color: white;
+  }
+
+  textarea::-webkit-input-placeholder {
+    color: grey;
+    padding-left: 10px;
+  }
+  
+  
+  #send-button {
+    margin-left:15px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color:rgb(70, 68, 68);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    float: right;
+    
+  }
+  
+  #send-button:focus,
+  #send-button:hover,
+  #send-button:active {
+    outline: none;
+    background-color:rgb(70, 68, 68);
+    color: rgba(255, 255, 255, 0.9); 
+  }
+  
+  #send-button:active {
+    background-color: darkgrey;
+  }
+  
+  .chatBubble {
+      font-weight: 200;
+      background-color: rgb(70, 68, 68);;
+      color: white;
+      width: 80%;
+      height: 50px;
+      border-radius: 5px;
+      margin: 10px;
+      font-family: 'Roboto';
+      padding: 10px;
+  }
+  
+  .user {
+    background-color:#128C7E;
+    color: white;
+      width: 80%;
+      height: 50px;
+      border-radius: 5px;
+      margin: 10px;
+      font-family: 'Roboto';
+      padding: 10px;
+      margin-left: 150px;
+  }
+
+  .timeStamp {
+    float: right;
+    font-size: 12px;
+    padding-top:18px;
+ }
+
+  ::-webkit-scrollbar {
+      width: 6px; height: 4px; background: #858282; 
+    }
+
+  ::-webkit-scrollbar-thumb {
+       background-color: #000000; -webkit-border-radius: 1ex; 
+    }
