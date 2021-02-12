@@ -8,6 +8,14 @@ body {
     font-family: arial, sans-serif;
   }
   
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+}
+
   #header {
     text-align:center;
     margin: 0 auto;
@@ -44,15 +52,15 @@ body {
   
   #controls {
     border-radius: 5px;
-    width: 1024px;
+    width: calc(100% - 20px);;
     margin: 0px auto;
     background-color: white;
   }
   
   textarea {
-      outline: none;
+    outline: none;
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: auto;
     border-radius: 21px;
     resize: none;
     width: 920px;
